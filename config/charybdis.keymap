@@ -95,11 +95,11 @@
     &kp TAB  &kp A  &hml LSFT R &hml LCTL S &hml LALT T &kp G  &kp M &hmr RALT N &hmr RCTL E &hmr RSFT I &kp O &kp SQT
 // Row 2: Bottom (physical third row)
     &kp LSFT &kp Z    &kp X    &kp C  &hml LGUI D &kp V      &kp K  &hmr RGUI H &kp COMMA &kp DOT &kp FSLH &mt LGUI TILDE
-// Row 3: Testing — put letters here to find thumb wiring
-    &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp N6       &kp N7   &kp N8   &kp N9   &kp N0   &kp MINUS &kp EQUAL
-// Thumbs (row 4)
-                               &kp A    &kp B     &kp C        &kp D    &kp E
-                                        &kp F     &kp G        &kp H
+// Row 3: Thumbs are wired here (positions 39-41 left, 42-43 right)
+    &none    &none    &none    &mo FN1  &mt LSFT BSPC &mt LCTL RET   &mt LALT SPC &mo FN2  &none    &none    &none    &none
+// Thumbs (row 4) — not wired on V&Z 3x6
+                               &none    &none     &none        &none    &none
+                                        &none     &none        &none
             >;
         };
 
@@ -109,9 +109,9 @@
     &kp TILDE &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS &kp ASTRK &kp FSLH &kp PLUS &kp MINUS
     &kp GRAVE &kp N1   &kp N2   &kp N3   &kp N4   &kp N5       &kp N6   &kp N7   &kp N8   &kp N9   &kp N0   &kp EQUAL
     &none     &none    &kp LT   &kp LBKT &kp LBRC &kp LPAR     &kp RPAR &kp RBRC &kp RBKT &kp GT   &kp UNDER &kp PIPE
-    &none     &none    &none    &none    &none    &none        &none    &none    &none    &none    &none    &none
-                                &trans   &kp BSPC &none         &kp SPC  &mo FN2
-                                         &kp RET  &none         &none
+    &none     &none    &none    &trans   &kp BSPC &kp RET      &kp SPC  &mo FN2  &none    &none    &none    &none
+                                &none    &none     &none        &none    &none
+                                         &none     &none        &none
             >;
         };
 
@@ -121,9 +121,9 @@
     &kp F1       &kp F2    &kp F3    &kp F4     &kp F5       &kp F6         &kp F7      &kp F8   &kp F9    &kp F10      &kp F11 &kp F12
     &kp LC(FSLH) &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V)    &kp LG(A)      &kp LG(UP)  &kp HOME &kp PG_UP &kp LA(LEFT) &kp UP  &kp LA(RIGHT)
     &to SYS      &caps_word &none    &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP   &kp LG(DOWN) &kp END &kp PG_DN &kp LEFT     &kp DOWN &kp RIGHT
-    &none        &none     &none     &none      &none        &none          &none       &none    &none     &none        &none   &none
-                                     &mo FN1    &kp LC(BSPC) &none          &kp SPC      &trans
-                                                &kp RET      &none          &none
+    &none        &none     &none    &mo FN1    &kp LC(BSPC) &kp RET        &kp SPC      &trans   &none     &none        &none   &none
+                                    &none      &none         &none          &none        &none
+                                               &none         &none          &none
             >;
         };
 
@@ -133,9 +133,9 @@
     &none  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP  &none &none &none &none &none &none
     &none  &none      &none        &none         &none        &none          &none &none &none &none &none &none
     &none  &none      &none        &none         &none        &none          &none &none &none &none &none &none
-    &none  &none      &none        &none         &none        &none          &none &none &none &none &none &none
-                                   &mkp MB1      &mkp MB2     &trans         &none &none
-                                                 &mkp MB3     &none          &none
+    &none  &none      &none        &mkp MB1      &mkp MB2     &mkp MB3       &none &none &none &none &none &none
+                                   &none         &none        &none          &none &none
+                                                 &none        &none          &none
             >;
         };
 
