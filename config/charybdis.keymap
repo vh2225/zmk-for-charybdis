@@ -113,7 +113,6 @@
                                &mo FN1  &mt LSFT BSPC &mo MOUSE  &mt LALT SPC &mo FN2
                                         &mt LCTL RET  &kp LGUI   &none
             >;
-            trackball-bindings = <&tmv_coarse>;
         };
 
         // ── Layer 1: Fn1 — Symbols & Numbers ────────────────────────
@@ -126,7 +125,6 @@
                                 &trans   &kp BSPC &none         &kp SPC  &mo FN2
                                          &kp RET  &none         &none
             >;
-            trackball-bindings = <&tmv_coarse>;
         };
 
         // ── Layer 2: Fn2 — Nav & Media ──────────────────────────────
@@ -139,7 +137,6 @@
                                      &mo FN1    &kp LC(BSPC) &none          &kp SPC      &trans
                                                 &kp RET      &none          &none
             >;
-            trackball-bindings = <&tmv_fine>;
         };
 
         // ── Layer 3: Mouse ──────────────────────────────────────────
@@ -152,7 +149,6 @@
                                    &mkp MB1      &mkp MB2     &trans         &none &none
                                                  &mkp MB3     &none          &none
             >;
-            trackball-bindings = <&tmv_coarse>;
         };
 
         // ── Layer 4: System ─────────────────────────────────────────
