@@ -47,5 +47,10 @@ manifest:
       path: modules/msgs/zmk-studio-messages
       remote: zmkfirmware
 
+    - name: zmk-pmw3610-driver
+      remote: DoctorWangWang
+      revision: main
+      path: modules/zmk-pmw3610-driver
+
   self:
     path: config
