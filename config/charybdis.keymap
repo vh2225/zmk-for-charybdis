@@ -131,7 +131,7 @@
         // ── Layer 3: Mouse (automouse — transparent so typing still works) ─
         MOUSE {
             bindings = <
-    &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP  &trans &trans &trans &trans &tog SCROLL &trans
+    &tog SCROLL &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP  &trans &trans &trans &trans &trans &trans
     &trans &trans     &trans       &trans        &trans       &trans          &trans &trans &trans &trans &trans      &trans
     &trans &trans     &trans       &trans        &trans       &trans          &trans &trans &trans &trans &trans      &trans
     &none  &none      &none        &mkp LCLK     &mkp RCLK    &mkp MCLK      &trans &trans &none  &none  &none      &none
@@ -154,7 +154,7 @@
         // ── Layer 5: Scroll lock (transparent — only activates scroll mode on trackball)
         SCROLL {
             bindings = <
-    &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &tog SCROLL &trans
+    &tog SCROLL &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
     &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans      &trans
     &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans      &trans
     &none  &none  &none  &trans &trans &trans    &trans &trans &none  &none  &none      &none
